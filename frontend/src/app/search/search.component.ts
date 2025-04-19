@@ -22,6 +22,8 @@ export class SearchComponent implements OnInit {
   search(){
     if(this.searchItem){
       this.router.navigateByUrl('/search/' + this.searchItem)
+    } else {
+      this.router.navigateByUrl('/')
     }
   }
 }
