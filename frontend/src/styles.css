@@ -15,3 +15,9 @@ body{
     /* font-family: "Montserrat", sans-serif; */
     font-size: 16px;
 }
+
+:root {
+  --theme-color: #e72929;
+  --theme-dark: #c22222;
+  --theme-bg-light: #fff5f5;
+}
